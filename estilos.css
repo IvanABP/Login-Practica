@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-family: 'Paytone One', sans-serif;
+}
+h2 {
+    font-family: 'Lily Script One', cursive;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    gap: 25px;
+    width: 500px;
+    margin: auto;
+}
+.registrate{
+    display: flex;
+    align-self:flex-start;
+    gap: 20px;
+    align-items:center ;
+    justify-content: center;
+    align-content: center;
+}
+.boton_google{
+    background-color: rgb(4, 122, 243);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+.boton_google:hover{
+    opacity: 0.80;
+}
+.boton_google picture{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton_google picture img{
+    width: 75%;
+
+}
+.boton_google span{
+    color: white;
+    padding: 15px;
+}
+
+.boton_twitter{
+    background-color: rgb(236, 236, 236);
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.boton_twitter:hover{
+    background-color: rgb(218, 218, 218);
+    cursor: pointer;
+}
+.boton_twitter picture img{
+    width: 75%;
+}
+.separacion{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+.separacion hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid rgb(218, 218, 218);
+}
+.separacion span{
+    color: rgb(214, 213, 213);
+}
+.formulario-regis{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width: 100%;
+}
+.formulario-regis label input{
+    width: 80%;
+    background-color: rgb(244, 244, 244);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch ;
+    gap: 20px;
+    margin-bottom: 25px;
+
+}
+label{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label span{
+    font-weight: 700;
+}
+label input{
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+    transition: background-color 0.2s, border 0.2s,  box-shadow 0.2s;
+}
+label input:hover{
+    background-color: white;
+    border: solid 1px rgb(214, 213, 213);
+    box-shadow: 0 0 4px rgb(254, 170, 255);
+    
+}
+label input:focus{
+    background-color: white;
+    border: solid 1px rgb(214, 213, 213);
+    box-shadow: 0 0 4px rgb(254, 170, 255);
+    
+}
+.aceptar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.aceptar input[type="checkbox"] {
+    width: 30px;
+    height: 40px;
+    box-shadow: none;
+}
+.sumit{
+    background-color: #e63177;
+    color:  white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sumit:hover{
+    opacity: 0.90;
+}
